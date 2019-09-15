@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import { Router, Route } from './Router'
 import { ReactComponent as HTTPSIlloSuccess } from './images/HTTPS-success.svg'
-import { ReactComponent as HTTPSIlloFail } from './images/HTTPs-fail.svg'
+import { ReactComponent as HTTPSIlloFail } from './images/HTTPS-fail.svg'
 
 interface RouteProps {
   router: Router
