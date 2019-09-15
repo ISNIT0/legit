@@ -1,0 +1,11 @@
+.router-cont {
+    flex: 1 1 auto;
+    position: relative;
+}
+
+.router-item {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
