@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ISNIT0/legit.git",
+  "author": "Maggie <maggie@egghead.io>",
+  "license": "MIT"
 }
