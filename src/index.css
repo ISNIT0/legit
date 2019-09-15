@@ -38,21 +38,34 @@ h2.fail {
   color: #ff6666;
 }
 
-.checkbutton {
-  margin: 10px auto;
+button {
+  margin: 0.2em auto;
   width: 40vw;
-  height: 80px;
-  background: linear-gradient(162.22deg, #60cfff -36.79%, #2a91f0 114.42%);
-  box-shadow: inset 0px -2px 2px rgba(11, 118, 206, 0.6);
   border: none;
   border-radius: 0.2em;
   font-family: 'Open Sans', -apple-system, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 30px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f5f6fa;
+}
+
+.checkbutton {
+  background: linear-gradient(162.22deg, #60cfff -36.79%, #2a91f0 114.42%);
+  box-shadow: inset 0px -2px 2px rgba(11, 118, 206, 0.6);
+
+  font-size: 30px;
+  height: 80px;
+  margin: 0.1em;
+}
+
+.nextbutton {
+  background: linear-gradient(162.22deg, #dde1e4 -36.79%, #d0d5da 114.42%);
+  margin: 0.1em;
+
+  font-size: 20px;
+  height: 60px;
 }
 
 p.description {

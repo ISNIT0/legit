@@ -29,12 +29,15 @@ class Secure extends React.Component<RouteProps> {
           It looks like the URL you entered uses HTTPS and is secure. This is a
           good sign that the publisher is reputable.
         </p>
+        <button className='checkbutton' onClick={() => {}}>
+          Check it
+        </button>
         <button
-          className='checkbutton'
+          className='nextbutton'
           onClick={() => {
             this.props.router.pushRoute({ key: 'isNewsArticle', data })
           }}>
-          Check it
+          Next
         </button>
       </div>
     )
