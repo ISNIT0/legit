@@ -1,3 +1,12 @@
+# You'll need to run `./proxy.js` for the react app to work
+
+```
+node proxy.js
+```
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
